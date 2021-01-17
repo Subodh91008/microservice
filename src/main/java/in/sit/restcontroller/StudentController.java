@@ -24,7 +24,7 @@ public class StudentController {
 	@PostMapping("/save")
 	public ResponseEntity<String> saveStudent(@RequestBody StudentEntity e) {
 		     list.add(e);
-		return ResponseEntity.ok("your Data saved succesfully");
+		return ResponseEntity.ok("your Registration succesfully Done!!!");
 	}
 	
 	@GetMapping("/getall")
